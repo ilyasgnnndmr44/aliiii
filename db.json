@@ -1,26 +1,31 @@
-[
-  {
-    "userId": 1,
-    "id": 1,
-    "title": "اَللّٰهُ لَٓا اِلٰهَ اِلَّا هُوَۚ اَلْحَيُّ الْقَيُّومُ",
-    "body": "ayetti!"
-  },
-  {
-    "userId": 1,
-    "id": 2,
-    "title": "Allah, O’ndan başka ilah yoktur.",
-    "body": " mana"
-  },
-  {
-    "userId": 1,
-    "id": 3,
-    "title": "وَهُوَ الْعَلِيُّ الْعَظ۪يمُ",
-    "body": " hadis"
-  },
-  {
-    "userId": 1,
-    "id": 4,
-    "title": "eum et est occaecati",
-    "body": "ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit"
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post 1"
+    },
+    {
+      "id": 2,
+      "title": "Post 2"
+    },
+    {
+      "id": 3,
+      "title": "Post 3"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
   }
-]
+}
